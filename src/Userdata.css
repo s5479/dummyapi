@@ -1,0 +1,107 @@
+.userdata{
+        background-color: rgb(255, 255, 255);
+        /* height: 80vh; */
+        width: 98%;
+        border-radius: 15px;
+        margin: 5px auto;
+        /* font-size: 1rem; */
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+ .userdata .userinfo{
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    font-size: .8rem;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}    
+p{
+    margin: 7px 0;
+} 
+.userdata .userinfo .btn{
+    background-color: rgb(255, 169, 123);
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    padding: 1%;
+    border: .5px solid orange;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: .6rem;
+    font-weight: bold;
+}
+.userdata .userinfo .btn:active{
+    background-color: rgb(246, 157, 109);
+}
+.userdescription{
+    padding: 20px 30px 0 30px;
+    margin: 10px 25px;
+    font-size: 0.9em;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px rgb(217, 215, 215);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.userdescription p{
+    font-size: 0.8em;
+}
+.userdescription .list{
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+.userdescription .list ul{
+    margin-right: 15vw;
+    font-size: .85rem;
+    
+}
+.userdescription .list li{
+    list-style-type: none;
+}
+h5{
+    padding: 1px;
+}
+@media screen and (max-width: 600px) {
+    .userdata .userinfo{
+      font-size: .4rem;
+      /* justify-content: flex-start; */
+      padding: 5%;
+
+    }
+    .userdata .userinfo .btn{
+        font-size: .3rem;
+        /* display: block; */
+        padding: 3px;
+
+
+    }
+    .userdescription .list{
+         margin-top: 1%;
+    }
+    .userdescription{
+        font-size: .4rem;
+        margin: 2px 25px;
+
+
+    }
+    .userdescription .list ul{
+        font-size: .4rem;
+        margin-right: 5vw;
+
+
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .userdescription{
+        padding: 5%;
+    }
+    .userdata .userinfo{
+        font-size: .3rem;
+    }
+   
+}
